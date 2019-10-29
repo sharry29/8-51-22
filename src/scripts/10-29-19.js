@@ -40,7 +40,7 @@ canvas
   .attr('width', width + margin.left + margin.right)
   .attr('x', 0)
   .attr('y', 0)
-  .attr('fill', 'none')
+  .attr('fill', '#fff7e3')
   .attr('stroke', 'black')
   .attr('stroke-width', 4)
 
