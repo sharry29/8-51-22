@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <link rel="stylesheet" href="styles/style.css">
+  {{> base/meta}}
+  {{> base/fonts }}
+  {{> base/analytics }}
+</head>
+<body class='light-theme'>
+  <!-- The headline area pulls most of its content from data/meta.json -->
+  <main id='content'>
+
+  <div class="header">
+    <h1 class='headline'>Eight // Fifty-One // Twenty-Two</h1>
+  </div>
+
+    {{{body}}}
+
+    {{> base/footer }}
+  </main>
+
+  <!-- We'll always keep this JS file around -->
+  <script src="scripts/vendor/ai2html-resizer.js"></script>
+
+</body>
+</html>
