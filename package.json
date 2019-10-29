@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-local": "parcel src/index.hbs --no-hmr",
-    "start": "node docs/index.html",
+    "start": "node docs/index.js",
     "build": "parcel build src/index.hbs --out-dir docs --public-url ."
   },
   "repository": {
@@ -43,6 +43,7 @@
     "topojson": "^3.0.2"
   },
   "dependencies": {
-    "@jsoma/parcel-plugin-handlebars": "^0.8.4"
+    "@jsoma/parcel-plugin-handlebars": "^0.8.4",
+    "server": "^1.0.19"
   }
 }
